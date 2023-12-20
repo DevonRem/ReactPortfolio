@@ -39,3 +39,83 @@
 .activeLink, .navLink:hover {
     color: var(--title-dark);
 }
+
+@media screen and (max-width: 768px) {
+    .header {
+        top: initial;
+        bottom: 0;
+    }
+
+    .nav {
+        height: var(--header-height);
+    }
+
+    .navMenu {
+        position: fixed;
+        bottom: -100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--body-color);
+        padding: 2rem 1.5rem 4rem;
+        box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 1.5rem 1.5rem;
+        transition: .3s;
+    }
+
+    .showMenu {
+        bottom: 0;
+    }
+
+    .hideToggle {
+        display: none;
+
+    }
+
+    .hideLogo {
+        display: none;
+    }
+
+    .navList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .navIcon {
+        font-size: 1.2rem;
+    }
+
+    .navClose {
+        position: absolute;
+        right: 1.3rem;
+        bottom: .5rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: var(--title);
+    }
+
+    .navClose:hover {
+        color: var(--title-dark);
+    }
+
+    .navToggle {
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    .navIcon, .navClose, .navToggle {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .navMenu {
+        padding: 2rem 0.25rem 4rem;
+
+    }
+
+    .navList {
+        column-gap: 0;
+        margin-left: 0.75rem;
+    }
+}
