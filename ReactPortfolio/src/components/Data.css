@@ -1,0 +1,8 @@
+.homeSocials-icons {
+    font-size: 2rem;
+    color: #0000EE;
+}
+
+.homeSocials-icons:hover {
+    color: var(--title-dark)
+}

@@ -1,0 +1,25 @@
+.homeContent {
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 10rem;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.homeImg {
+    background: url(../assets/react.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.homeTitle {
+    font-size: var(--big-font);
+    margin-bottom: 0.25rem;
+}
+
+.homeSubtitle {
+    position: relative;
+    font-size: var(--h3-font);
+}

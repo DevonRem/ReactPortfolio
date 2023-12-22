@@ -1,4 +1,5 @@
 import Header from './components/Header.jsx';
+import Home from './components/Home.jsx';
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
 
     <Header></Header>
+    <Home></Home>
 
     </>
   )
