@@ -147,7 +147,9 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-
+  .section {
+    padding: 2rem 0 4rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -155,6 +157,9 @@ img {
 }
 
 @media screen and (max-width: 350px) {
+  :root {
+    --big-font: 2.25rem;
+  }
   .container {
     margin-left: 1rem;
     margin-right: 1rem;

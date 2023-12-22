@@ -57,3 +57,32 @@
     color: #0000EE;
     font-size: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+    .homeContent {
+        grid-template-columns: 0.5fr 3fr;
+        padding-top: 3.5rem;
+    }
+    
+    .homeImg {
+        order: initial;
+        justify-self: initial;
+        width: 200px;
+        height: 200px;
+    }
+
+    .homeData {
+        grid-column: 1/3;
+    }
+
+    .homeScroll {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .homeImg {
+        width: 180px;
+        height: 180px;
+    }
+}
