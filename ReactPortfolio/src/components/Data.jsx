@@ -20,7 +20,7 @@ function Data() {
             </a>
 
             <h5>Or Email me at: </h5>
-            <h4>DevonReminick@gmail.com</h4>
+            <h3>DevonReminick@gmail.com</h3>
         </div>
         
         
