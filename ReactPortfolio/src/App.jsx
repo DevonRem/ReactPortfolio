@@ -1,6 +1,6 @@
 import Header from './components/Header.jsx';
 import Home from './components/Home.jsx';
-import Projects from './components/Projects.jsx';
+import About from './components/About.jsx';
 import './App.css'
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 
     <Header></Header>
     <Home></Home>
-    <Projects></Projects>
+    <About></About>
 
     </>
   )

@@ -87,10 +87,11 @@ img {
 
 .button {
   display: inline-block;
-  background-color: var(--title-color);
+  background-color: var(--title);
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
+  margin-top: 0.25rem;
   font-weight: var(--font-medium);
 }
 
@@ -113,7 +114,7 @@ img {
 
 .sectionTitle {
   font-size: var(--h1-font);
-  color: var(--title-color);
+  color: var(--title);
   text-align: center;
 }
 

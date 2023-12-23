@@ -60,16 +60,17 @@
 
 @media screen and (max-width: 768px) {
     .homeContent {
-        grid-template-columns: 0.5fr 3fr;
+        grid-template-columns: 1fr;
         padding-top: 3.5rem;
     }
     
     .homeImg {
         order: initial;
-        justify-self: initial;
+        justify-self: center;
         width: 200px;
         height: 200px;
     }
+    
 
     .homeData {
         grid-column: 1/3;
