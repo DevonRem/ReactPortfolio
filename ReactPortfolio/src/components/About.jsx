@@ -9,6 +9,7 @@ function About() {
   
         <div className="about section" id="about">
           <h2 className="sectionTitle">About me</h2>
+          <div className="sectionSubtitle"></div>
 
 
           <div className="aboutContainer container grid">

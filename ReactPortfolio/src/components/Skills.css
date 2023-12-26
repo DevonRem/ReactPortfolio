@@ -1,0 +1,19 @@
+.skillsGroup {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.skillsData {
+    text-align: center;
+}
+
+.skillsTitle {
+    text-align: center;  
+}
+
+
+.skillsTitle {
+    margin-bottom: 1rem;
+}
