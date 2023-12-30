@@ -1,0 +1,25 @@
+
+
+.projectBox {
+    outline: auto;
+    padding: 1rem;
+    
+    
+}
+
+.projectTopBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.projectBottomBox {
+
+}
+
+.projectImg {
+    border: solid black;
+    width: 25%;
+    height: 100%;
+}
