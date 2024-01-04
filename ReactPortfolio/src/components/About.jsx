@@ -1,5 +1,5 @@
 import "./About.css";
-import AboutImg from "../assets/react.svg";
+import AboutImg from "../assets/me.jpg";
 
 function About() {
 

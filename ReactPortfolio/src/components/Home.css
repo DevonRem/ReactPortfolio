@@ -9,12 +9,12 @@
     0%{
         transform: translateX(-200px);
         opacity: 0%;
-        background-image: url(../assets/react.svg);
+        background-image: url(../assets/me.jpg);
     }
     100%{
         transform: translateX(0px);
         opacity: 100%;
-        background-image: url(../assets/react.svg);
+        background-image: url(../assets/me.jpg);
     }
     
 }
