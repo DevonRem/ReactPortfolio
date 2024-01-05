@@ -18,7 +18,9 @@
     margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 350px) {
+
+
+@media screen and (max-width: 576px) {
     .skillsGroup {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
