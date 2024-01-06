@@ -10,7 +10,7 @@ function Projects() {
       <>
   
         <div className="projects" id="projects">
-          <h2 className="sectionTitle">Projects:</h2>
+          <h2 className="sectionTitle sectionProjectTitle">Projects:</h2>
           <div className="sectionSubtitle">Recent work:</div>
 
           <div className="projectBox container grid">
