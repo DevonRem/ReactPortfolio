@@ -22,7 +22,7 @@ function Data() {
             <h5>Or Email me at: </h5>
             <h3>DevonReminick@gmail.com</h3>
 
-            <a href="https://drive.google.com/file/d/1VhBgsLDTD8roNsoOhOIzExrxDXRPtNDD/view" className="button buttonFlex">Resume</a>
+            <a href="https://drive.google.com/file/d/1X3cVeQUkj31p5-tz-j3KDRf1TTr-PNyJ/view" className="button buttonFlex">Resume</a>
         </div>
         
         
