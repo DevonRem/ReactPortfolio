@@ -2,6 +2,7 @@ import "./Projects.css";
 import RSCImg from "../assets/RSCImg.png";
 import RMGImg from "../assets/RMGImg.png";
 import RCVImg from "../assets/RCVImg.png";
+import fullstackBlogImg from "../assets/fullstackBlogImg.png";
 
 function Projects() {
 
@@ -12,6 +13,22 @@ function Projects() {
         <div className="projects" id="projects">
           <h2 className="sectionTitle sectionProjectTitle">Projects:</h2>
           <div className="sectionSubtitle">Recent work:</div>
+
+          <div className="projectBox container grid">
+            <div className="projectTopBox">
+              <h3 className="projectTitle">Full-Stack Blog App</h3>
+              <a href="https://github.com/DevonRem/FullStackBlog" className="button buttonFlex">Github</a>
+              <a href="https://fullstackblog-qane.onrender.com/" className="button buttonFlex">Live</a>
+              <img src={fullstackBlogImg} className="projectImg"></img>
+            </div>
+            <div className="projectBottomBox">
+              <div className="toolsUsed"><h3>Tools used:</h3>MongoDB, Express, React, Node.JS</div>
+              <div className="description"><h3>Description:</h3> Full-Stack blog web app using MERN stack.
+              Uses user authentication and MongoDB database storage. Secure registration/login process with password encryption for safe storage. 
+              Built REST API using Node.js/Express  for React front-end integration.  </div>
+            </div>
+            
+          </div>
 
           <div className="projectBox container grid">
             <div className="projectTopBox">
@@ -45,20 +62,7 @@ lifecycle methods, and asynchronous API calls.</div>
           </div>
 
 
-          <div className="projectBox container grid">
-            <div className="projectTopBox">
-              <h3 className="projectTitle">React CV App</h3>
-              <a href="https://github.com/DevonRem/ReactCVApp" className="button buttonFlex">Github</a>
-              <a href="https://react-cv-app-sable.vercel.app/" className="button buttonFlex">Live</a>
-              <img src={RCVImg} className="projectImg"></img>
-            </div>
-            <div className="projectBottomBox">
-              <div className="toolsUsed"><h3>Tools used:</h3>HTML, CSS, JavaScript, React</div>
-              <div className="description"><h3>Description:</h3> CV application that takes a set of user info and uses it to create a CV. This 
-is accomplished using components, states, and props. This is my first project using React.</div>
-            </div>
-            
-          </div>
+
 
         </div>
   
